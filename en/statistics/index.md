@@ -70,6 +70,8 @@ To test this function, you may add a few lines of tests below the function defin
 
     python text_statistics.py
 
+Note: this also tests the functions you still need to implement below, so only pay attention to the first test for now.
+
 # 2. Words
 
 ## Specification
