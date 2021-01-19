@@ -79,6 +79,62 @@ Notice that this looks quite a bit like the transform strategy!
 
 ## testing
 
+### Testcases
+
+Try some of the following testcases before you run checkpy:
+
+#### Test 1
+
+    test_text1 = "Row, row, row your boat. Gently down the stream. Row, row, row your boat. Gently down the stream."
+    print(text_to_lines(test_text1, 25))
+
+#### Expected output
+
+    Row, row, row your boat.
+    Gently down the stream.
+    Row, row, row your boat.
+    Gently down the stream.
+
+#### Test 2
+
+    test_text2a = "Computer science is no more about computers than astronomy is about telescopes."
+    test_text2b = "If debugging is the process of removing software bugs, then programming must be the process of putting them in."
+    print(text_to_lines(test_text2a, 35))
+    print(text_to_lines(test_text2b, 40))
+
+#### Expected output
+
+    Computer science is no more about
+    computers than astronomy is about
+    telescopes.
+    If debugging is the process of removing
+    software bugs, then programming must be
+    the process of putting them in.
+
+#### Test 3
+
+    test_text3 = "a bb ccc dddd"
+    print(text_to_lines(test_text3, 4))
+    print(text_to_lines(test_text3, 5))
+    print(text_to_lines(test_text3, 7))
+    print(text_to_lines(test_text3, 8))
+
+#### Expected output
+
+    a bb
+    ccc
+    dddd
+    a bb
+    ccc
+    dddd
+    a bb
+    ccc
+    dddd
+    a bb ccc
+    dddd
+
+### Checkpy
+
     checkpy reformatting
 
 Tip: Sometimes when the result seems correct but is not approved by checkpy there are some invisible
