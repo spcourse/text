@@ -133,6 +133,19 @@ Try some of the following testcases before you run checkpy:
     a bb ccc
     dddd
 
+#### Test 4
+
+    test_text4 = """He proposed in the dunes, they were wed by the sea, Their nine-day-long honeymoon was on the isle of Capri. For their supper they had one specatular dish- a simmering stew of mollusks and fish. And while he savored the broth, her bride's heart made a wish. That wish came true-she gave birth to a baby. But was this little one human Well, maybe."""
+    print(text_to_lines(test_text4, 77))
+
+#### Expected Output
+
+    He proposed in the dunes, they were wed by the sea, Their nine-day-long
+    honeymoon was on the isle of Capri. For their supper they had one specatular
+    dish- a simmering stew of mollusks and fish. And while he savored the broth,
+    her bride's heart made a wish. That wish came true-she gave birth to a baby.
+    But was this little one human Well, maybe.
+
 ### Checkpy
 
     checkpy reformatting
