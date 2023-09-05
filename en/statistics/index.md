@@ -25,7 +25,7 @@ In `text_statistics.py`, write a function `number_of_letters_in(text)` that calc
 ### Examples
 
     print(number_of_letters_in("He counted more than 7 petals on each flower."))
-	print(number_of_letters_in("ABCDE 9182 F"))
+	  print(number_of_letters_in("ABCDE 9182 F"))
 
 Expected output:
 

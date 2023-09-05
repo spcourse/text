@@ -47,6 +47,8 @@ When analyzing a text, this means that each positive word adds 1 to the total sc
 
 4. Write a function `sentiment_of_text(text)` that calculates and totals the sentiment score of all words in the text.
 
+> Tip: Make your life easy ba re-using the function `cleanup(word)` that you created for the `list_words` assignment.
+
 
 ## Testing
 

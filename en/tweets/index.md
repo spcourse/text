@@ -23,6 +23,8 @@ Your program should comprise three parts:
 
 3. Take the calculated numbers and use these to make a nice pie chart: [matplotlib.pyplot.pie — Matplotlib 3.1.0 documentation](https://matplotlib.org/3.1.0/api/_as_gen/matplotlib.pyplot.pie.html#matplotlib.pyplot.pie). The chart should have three parts: positive, negative and neutral. Also make sure the chart has descriptive labels and appropriate colors! Have a look at the Matplotlib docs.
 
+> Tip: Make your life easy ba re-using the function `cleanup(word)` that you created for the `list_words` assignment.
+
 ## Testing
 
 This program can't be tested automatically!
