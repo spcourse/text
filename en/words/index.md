@@ -43,12 +43,12 @@ Given the description and example above, you will need to make sure that each wo
 
 ## Strategy
 
-1. Split up all "words".
 
-2. Write a function called `cleanup(word)` that cleans a word using the guidelines above. Use methods from Pythons `string` library to do this.
+1. Write a function called `cleanup(word)` that cleans a word using the guidelines above. Use methods from Pythons `string` library to do this.
 
-3. Write a function called `text_to_unique_words(text)` that takes a text as input and outputs a list of unique words.
+2. Write a function called `text_to_unique_words(text)` that takes a text as input and outputs a list of unique words.
 
+    * Split up all "words".
     * Pass all words through the `cleanup` function.
     * To make sure that the words are unique, you will need a variant of the transform strategy:
 
@@ -61,7 +61,7 @@ Given the description and example above, you will need to make sure that each wo
 
           sorted_list = sorted(unsorted_list)
 
-4. print result as specified.
+3. print result as specified.
 
 Tip: split up your code into functions (with meaningful names) as much as possible!
 
