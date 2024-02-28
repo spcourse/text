@@ -1,4 +1,4 @@
-# Reformatting text
+# Align text
 
 Create a file called `align.py` and implement a function `right_align(text)` which right aligns the given text.
 
