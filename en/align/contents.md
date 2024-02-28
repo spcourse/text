@@ -9,21 +9,21 @@ Create a file called `align.py` and implement a function `right_align(text)` whi
 
 Expected ouput:
 
-ASDF is the sequence of letters that appear
-on the first four keys on the home row of
-a QWERTY or QWERTZ keyboard. They are often used
-as a sample or test case or as random, meaningless
-nonsense. It is also a common learning tool
-for keyboard classes, since all four keys are
-located on Home row.
+    ASDF is the sequence of letters that appear
+    on the first four keys on the home row of
+    a QWERTY or QWERTZ keyboard. They are often used
+    as a sample or test case or as random, meaningless
+    nonsense. It is also a common learning tool
+    for keyboard classes, since all four keys are
+    located on Home row.
 
-       ASDF is the sequence of letters that appear
-         on the first four keys on the home row of
-  a QWERTY or QWERTZ keyboard. They are often used
-as a sample or test case or as random, meaningless
-       nonsense. It is also a common learning tool
-     for keyboard classes, since all four keys are
-                              located on Home row.
+           ASDF is the sequence of letters that appear
+             on the first four keys on the home row of
+      a QWERTY or QWERTZ keyboard. They are often used
+    as a sample or test case or as random, meaningless
+           nonsense. It is also a common learning tool
+         for keyboard classes, since all four keys are
+                                  located on Home row.
 
 
 
@@ -41,7 +41,7 @@ For an overview of those concepts have a look [here](/python/en/overview).
 * You can use other string methods (like `split()`), mentioned in the python [string functions documentation](https://docs.python.org/3.7/library/stdtypes.html#string-methods).
 * You can use the built-in python function `len()`.
 * The function `right_align(text)` should not contain any print statements.
-* You **are alowed** to use stirng multiplication.
+* You **are alowed** to use string multiplication.
 
 ## Background
 
@@ -72,11 +72,12 @@ Output:
 
 ## Strategy
 
+
 1. Split up the text into individual **lines** (based on the newline character, `\n`).
 
-2. Create a variable to hold the newly made string.
+2. Find the length of longest line.
 
-3. Find the length of longest line.
+3. Create a variable to hold the newly made string.
 
 4. For every line:
 
@@ -84,7 +85,7 @@ Output:
 
     - Add the padded line to output text.
 
-## testing
+## Testing
 
 Try some of the following testcases:
 
@@ -96,7 +97,7 @@ Try some of the following testcases:
     text_right_aligned = right_align(text)
     print(text_right_aligned)
 
-### Expected output:
+#### Expected output:
 
     This text is left aligned.
     Lets change that.
@@ -112,7 +113,7 @@ Try some of the following testcases:
     text_right_aligned = right_align(text)
     print(text_right_aligned)
 
-### Expected output:
+#### Expected output:
 
     It would be so
     nice if something made
@@ -122,7 +123,7 @@ Try some of the following testcases:
     nice if something made
        sense for a change.
 
-### Test 3
+#### Test 3
 
     text = "# #\n# # #\n# # # #"
     print(text)
@@ -130,7 +131,7 @@ Try some of the following testcases:
     text_right_aligned = right_align(text)
     print(text_right_aligned)
 
-### Expected output:
+#### Expected output:
 
     # #
     # # #
@@ -140,17 +141,17 @@ Try some of the following testcases:
       # # #
     # # # #
 
-### Test 4
+#### Test 4
 
     bunny = right_align("(\\ (\\ \nbunny! =>     ( ^.^)\n*(\")(\")")
     print(bunny)
 
-### Expected output:
+#### Expected output:
 
                   (\ (\
     bunny! =>     ( ^.^)
                  *(")(")
 
-## Checkpy
+### Checkpy
 
 checkpy align
