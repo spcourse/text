@@ -31,7 +31,8 @@ Expected ouput:
 
 * The programm should contain the function `right_align(text)`.
 * The input of the function is a `string` called `text`.
-* The output of the function is a string where each line is padded with spaces so that all lines are left aligned.  
+* The output of the function is a string where each line is padded with spaces so that all lines are right aligned.  
+* The alignment should be done in such a way that the text doesn't move more to the right than strictly necessary.
 
 ### Constraints
 
