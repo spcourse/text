@@ -39,6 +39,7 @@ Expected ouput:
 * You are only allowed to use the concepts that are discussed in this module. Except for the mentioned exceptions.
 For an overview of those concepts have a look [here](/python/en/overview).
 * You are *not* allowed to use the `import`-statement.
+* You cannot use the `min()` or `max()` function.
 * You can use other string methods (like `split()`), mentioned in the python [string functions documentation](https://docs.python.org/3.7/library/stdtypes.html#string-methods).
 * You can use the built-in python function `len()`.
 * The function `right_align(text)` should not contain any print statements.
