@@ -38,9 +38,13 @@ For an overview of those concepts have a look [here](/python/en/overview).
 
 ### Hints
 
-* This assignment is intentionally underspecified. Not all edge-cases are fully described in the constraints, and you might have to do some research (e.g., talk to us) to get all the details right.
-* \[Important!\] When using the `split()` method, there is an important difference between `text.split(' ')` and `text.split()`. For many strings they might seem to do the same thing, but use for instance the string `text = "a    b"`, to see how these two differ.
+* This assignment is intentionally underspecified. Not all edge-cases are fully described in the constraints, and you might have to do some research   (e.g., talk to us) to get all the details right.
+* \[Important!\] When using the `split()` method, there is an important difference between `text.split(' ')` and `text.split()`. For many strings they might seem to do the same thing, but use this example to see the difference:
 
+      text = "a    b"
+      print(text.split(' '))
+      print(text.split())
+      
 ## Background
 
 If you know how to split, as well as how to join strings again, you might implement a function that *reformats* text. In this case, we will create a formatter that ensures a text has a maximum number of characters per line. As you can see, when printing such a long string by itself, it doesn't really look *nice*: the newlines have been inserted in the middle of words. We can do better!
