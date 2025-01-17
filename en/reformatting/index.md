@@ -19,6 +19,7 @@ Expected ouput:
     nonsense. It is also a common learning tool for keyboard classes, since all four keys are
     located on Home row.
 
+
 ## Specification
 
 * The programm should contain the function `text_to_lines(text, max_length)`.
@@ -33,6 +34,12 @@ For an overview of those concepts have a look [here](/python/en/overview).
 * You can use other string methods (like `split()`), mentioned in the python [string functions documentation](https://docs.python.org/3.7/library/stdtypes.html#string-methods).
 * You can use the built-in python function `len()`.
 * The function `text_to_lines(text, max_length)` should not contain any print statements.
+
+
+### Tips:
+
+* This assignment is intentionally underspecified. Not all "edge-cases" are fully described in the constraints, and you might have to do some "research" (e.g., talk to us) to get all the details right.
+* \[Important!\] When using the `split()` method, there is an important difference between `text.split(' ')` and `text.split()`. For many strings they might seem to do the same thing, but use for instance the string `text = "a    b"`, to see how these two differ.
 
 ## Background
 
@@ -87,7 +94,7 @@ Try some of the following testcases before you run checkpy:
 
     test_text1 = "Row, row, row your boat. Gently down the stream. Row, row, row your boat. Gently down the stream."
     separate_lines = text_to_lines(test_text1, 25)
-    
+
     for line in separate_lines.split("\n"):
         print(f"{len(line)}: {line}")
 
