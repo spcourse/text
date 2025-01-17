@@ -36,7 +36,7 @@ For an overview of those concepts have a look [here](/python/en/overview).
 * The function `text_to_lines(text, max_length)` should not contain any print statements.
 
 
-### Tips:
+### Hints
 
 * This assignment is intentionally underspecified. Not all "edge-cases" are fully described in the constraints, and you might have to do some "research" (e.g., talk to us) to get all the details right.
 * \[Important!\] When using the `split()` method, there is an important difference between `text.split(' ')` and `text.split()`. For many strings they might seem to do the same thing, but use for instance the string `text = "a    b"`, to see how these two differ.
