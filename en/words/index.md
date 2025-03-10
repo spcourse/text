@@ -4,6 +4,7 @@ Implement a program called `list_words.py` that prints a sorted list of all the 
 
     # python list_words.py
     original: The apple doesn't fall far from the tree.
+    the
     apple
     doesn't
     fall
