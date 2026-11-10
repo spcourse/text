@@ -43,11 +43,11 @@ When analyzing a text, this means that each positive word adds 1 to the total sc
 
    Now you have two lists containing the words.
 
-3. Write a function `sentiment_of_word(word)` that calculates the score of a single word. It should check if the word belongs to either word list and return the appropriate score, or if it doesn't, return 0. Make sure you clean the word before you calculate its sentiment score.
+3. Write a function `cleanup(word)` that returns the word in lowercase, with the punctuation removed from its end. For example, `cleanup("ClEaN!")` returns `"clean"`. This way `"Ugly."` in a text matches `"ugly"` in the word list.
 
-4. Write a function `sentiment_of_text(text)` that calculates and totals the sentiment score of all words in the text.
+4. Write a function `sentiment_of_word(word)` that calculates the score of a single word. It should check if the word belongs to either word list and return the appropriate score, or if it doesn't, return 0. Make sure you clean the word before you calculate its sentiment score.
 
-> Tip: Make your life easy ba re-using the function `cleanup(word)` that you created for the `list_words` assignment.
+5. Write a function `sentiment_of_text(text)` that calculates and totals the sentiment score of all words in the text.
 
 
 ## Testing
